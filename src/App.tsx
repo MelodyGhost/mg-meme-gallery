@@ -30,7 +30,7 @@ export const App = () => {
         m={'auto'}
       >
         <Flex minH="100vh" p={3} flexDir={'column'}>
-          <ColorModeSwitcher justifyContent={'flex-end'} />
+          <ColorModeSwitcher justifyContent="center" m="auto 0 auto auto" />
           <VStack spacing={8} alignItems={'center'}>
             <Text as={'h1'} fontWeight={'bold'} fontSize={'lg'}>
               Meme Gallery
