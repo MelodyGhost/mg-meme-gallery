@@ -29,7 +29,6 @@ interface MemeImageProrps {
 
 const MemeImage = ({ meme, onDelete }: MemeImageProrps) => {
   const [showDelete, toggleShowDelete] = useState(false);
-  console.log(process.env.REACT_APP_MEME_API_URL);
 
   return (
     <Box
